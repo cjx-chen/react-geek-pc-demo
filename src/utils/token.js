@@ -10,8 +10,8 @@ const getToken = () => {
   return window.localStorage.getItem(key);
 };
 
-const removeToken = () => {
+const clearToken = () => {
   return window.localStorage.removeItem(key);
 };
 
-export { setToken, getToken, removeToken };
+export { setToken, getToken, clearToken };
